@@ -167,8 +167,7 @@ a{
 	color: #17bebb;
 }
 
-table{
-}
+
 /*LOGO*/
 
 .logo h1{
@@ -182,11 +181,7 @@ table{
 }
 
 /*HERO*/
-.{
-	position: relative;
-  position: absolute;
-	z-index: 0;
-}
+
 
 .hero .text{
 	color: rgba(0,0,0,.3);
