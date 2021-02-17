@@ -35,8 +35,14 @@ table {
 
 /* What it does: Uses a better rendering method when resizing images in IE. */
 img {
+    
+    
+    <>
+    
     -ms-interpolation-mode:bicubic;
 }
+
+
 
 /* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
 a {
@@ -100,6 +106,7 @@ img.g-img + div {
 	background: #17bebb;
 }
 .bg_white{
+    float: left;
 	background: #ffffff;
 }
 .bg_light{
@@ -121,6 +128,7 @@ img.g-img + div {
 	display: inline-block;
 }
 .btn.btn-primary{
+    
 	border-radius: 5px;
 	background: #17bebb;
 	color: #ffffff;
@@ -181,10 +189,15 @@ a{
 }
 
 /*HERO*/
+.text-top{
+    color: rgba(0,0,0,.3);
+    margin-right: 100px;
+    float: right;
+}
 
-
-.hero .text{
+.hero{
 	color: rgba(0,0,0,.3);
+    
 }
 .hero .text h2{
 	color: #000;
@@ -206,8 +219,8 @@ a{
 /*PRODUCT*/
 .product-entry{
 	display: block;
-	position: relative;
-	float: left;
+	width: 600px;
+	height: 250px;
 	padding-top: 20px;
 }
 .product-entry .text{
